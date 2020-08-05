@@ -1,0 +1,14 @@
+body
+{
+  background-color: rgb(255, 123, 15);
+  font-family:  "Lucida Console", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.selected
+{
+  color: red;
+}

@@ -1,0 +1,14 @@
+collections:
+  profiles:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "pofiles"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
