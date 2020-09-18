@@ -2,6 +2,15 @@
     background-color: rgb(255, 123, 15);
     font-family: "Lucida Console", Courier, monospace;
     color: black;
+    left: 0;
+}
+
+.team-mayhem {
+    font-family: Courier New, Courier, monospace;
+}
+
+p {
+    line-height: 1.1em;
 }
 
 a {
@@ -11,11 +20,19 @@ a {
 .navigation
 {
     left: 0;
+    font-size: 1.2em;
     background-color: black;
+    color: white;
+    padding: 10px;
 }
 
-.navigation a {
+.navigation a:visited {
     color: white;
+}
+
+.navigation a:hover {
+    color: gray;
+    transition: color 0.65s ease-out;
 }
 
 .selected {
@@ -31,14 +48,43 @@ a {
     line-height: 1.5rem;
 }
 
+.text-box {
+    background-color: rgb(255, 163, 98);
+    outline-width: 4px;
+    outline-color: white;
+    outline-style: solid;
+}
+
 .logo{
     display: block;
     margin: 5vh auto;
-    width: 60%;
+    width: 50%;
     height: auto;
 }
 
 .main .trailer {
     width: 100%;
     height: 50vh;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: white;
+}
+
+.description
+{
+    margin: 15px;
+}
+
+.profile {
+    margin: 0 0 6vh 6vw;
+    width: 70vw;
+    padding: 1px 10px;
+}
+
+.profile a {
+    font-style: italic;
+}
+
+ul li {
+    margin-bottom: 2vh;
 }
