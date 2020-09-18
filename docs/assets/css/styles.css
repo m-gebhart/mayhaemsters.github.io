@@ -5,8 +5,13 @@
     left: 0;
 }
 
-.team-mayhem {
+.team-mayhem, .title {
     font-family: Courier New, Courier, monospace;
+    color: black !important;
+}
+
+.title {
+    font-size: 3em;
 }
 
 p {
@@ -26,7 +31,7 @@ a {
     padding: 10px;
 }
 
-.navigation a:visited {
+.navigation a:visited, a {
     color: white;
 }
 
@@ -70,7 +75,7 @@ a {
     outline-color: white;
 }
 
-.description
+.main .description
 {
     margin: 15px;
 }
@@ -83,8 +88,16 @@ a {
 
 .profile a {
     font-style: italic;
+    color: #fafafa;
 }
 
 ul li {
     margin-bottom: 2vh;
+}
+
+.footnote {
+    display: block;
+    margin: 0 10px;
+    font-size: 0.75em;
+    text-align:center;
 }
